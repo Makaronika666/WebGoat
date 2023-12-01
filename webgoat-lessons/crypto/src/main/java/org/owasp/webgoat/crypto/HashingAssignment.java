@@ -72,7 +72,7 @@ public class HashingAssignment extends AssignmentEndpoint {
         }
         return sha256Hash;
     }
-}
+
 	
 	@RequestMapping(path="/crypto/hashing/sha256",produces=MediaType.TEXT_HTML_VALUE)
     @ResponseBody
